@@ -1,5 +1,7 @@
-// Factorial recursivo
-#include <stdio.h>
+// Factorial recursivo - P1E Recursividad
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
 
 int factRecursion(int n){
 	if(n < 0){

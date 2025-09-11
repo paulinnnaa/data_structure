@@ -1,7 +1,9 @@
-// Factorial cola
+// Factorial cola - P1E Recursividad
 #include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
 
-factTail(int n, int a){
+int factTail(int n, int a){
 	if (n < 0){
 		return 0;
 	}

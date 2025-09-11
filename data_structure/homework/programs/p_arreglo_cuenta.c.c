@@ -1,4 +1,4 @@
-// P2 Números pares
+// Descomposición del número de cuenta - P2E
 #include <stdio.h>
 #define n 10
 
@@ -19,7 +19,7 @@ void listR (int array[n]){
 	printf("\n");
 }
 
-void position(int array[n]){ // Aquí hago un contadorsito para ubicar la posición 8
+void position(int array[n]){ // Aquí hago un "contadorsito" para ubicar la posición 8
 	int i, pos = 1;
 	for (i = n-1; i>=0; i--, pos++){
 		if(pos == 8){
